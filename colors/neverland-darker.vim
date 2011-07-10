@@ -15,7 +15,7 @@ if version > 580
 endif
 let g:colors_name="neverland-darker"
 
-hi Normal          guifg=#ffd7ff guibg=#080808
+hi Normal          guifg=#ffffff guibg=#000000
 set background=dark
 
 hi Boolean         guifg=#af5fff
@@ -100,7 +100,7 @@ hi WarningMsg      guifg=#0000ff guibg=#444444 gui=bold
 hi WildMenu        guifg=#5fd7ff guibg=#000000
 
 hi Comment         guifg=#af875f
-hi ColorColumn                   guibg=#202020
+hi ColorColumn                   guibg=#080808
 hi CursorLine                    guibg=#121212 gui=none
 hi CursorColumn                  guibg=#080808
 hi LineNr          guifg=#626262 guibg=#080808
@@ -111,7 +111,7 @@ hi TabLineFill     guifg=#080808 guibg=#121212
 hi TabLineSel      guifg=#ffd700 guibg=#1c1c1c
 
 if &t_Co > 255
-   hi Normal          ctermfg=225 ctermbg=232
+   hi Normal          ctermfg=15 ctermbg=0
    set background=dark
 
    hi Boolean         ctermfg=135
@@ -169,7 +169,7 @@ if &t_Co > 255
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81  ctermbg=232
-   hi SpecialKey      ctermfg=245
+   hi SpecialKey      ctermfg=234
 
    hi SpellBad        ctermfg=196 ctermbg=232  cterm=bold
    hi SpellCap        ctermfg=196 ctermbg=232  cterm=bold
@@ -196,7 +196,7 @@ if &t_Co > 255
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Comment         ctermfg=137
-   hi ColorColumn                 ctermbg=235
+   hi ColorColumn                 ctermbg=232
    hi CursorLine                  ctermbg=233   cterm=none
    hi CursorColumn                ctermbg=232
    hi LineNr          ctermfg=241 ctermbg=232
