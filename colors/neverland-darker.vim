@@ -39,8 +39,8 @@ hi Error           guifg=#ffafff guibg=#87005f
 hi ErrorMsg        guifg=#ff00af guibg=#000000 gui=bold
 hi Exception       guifg=#87ff00               gui=bold
 hi Float           guifg=#af5fff
-hi FoldColumn      guifg=#5f87af guibg=#000000
-hi Folded          guifg=#5f87af guibg=#000000
+hi FoldColumn      guifg=#5f87af guibg=#121212 gui=none
+hi Folded          guifg=#585858 guibg=#262626 gui=bold
 hi Function        guifg=#87ff00
 hi Identifier      guifg=#afd75f
 hi Ignore          guifg=#808080 guibg=#080808
@@ -57,10 +57,10 @@ hi MoreMsg         guifg=#ffaf5f
 hi Operator        guifg=#afd700
 
 " complete menu
-hi Pmenu           guifg=#5fd7ff guibg=#262626
-hi PmenuSel                      guibg=#262626
-hi PmenuSbar                     guibg=#262626
-hi PmenuThumb      guifg=#5fd7ff
+hi Pmenu           guifg=#af875f guibg=#000000 gui=none
+hi PmenuSel        guifg=#ff0000 guibg=#262626 gui=bold
+hi PmenuSbar       guifg=#000000 guibg=#121212 gui=none
+hi PmenuThumb      guifg=#af875f guibg=#000000 gui=none
 
 hi PreCondit       guifg=#87ff00               gui=bold
 hi PreProc         guifg=#ffafd7
@@ -75,10 +75,10 @@ hi SpecialComment  guifg=#8a8a8a               gui=bold
 hi Special         guifg=#5fd7ff guibg=#080808
 hi SpecialKey      guifg=#8a8a8a
 
-hi SpellBad        guifg=#ff0000 guibg=#080808  gui=bold
-hi SpellCap        guifg=#ff0000 guibg=#080808  gui=bold
-hi SpellRare       guifg=#ff0000 guibg=#080808  gui=bold
-hi SpellLocal      guifg=#ff0000 guibg=#141414  gui=bold
+hi SpellBad        guifg=#ff0000 guibg=#121212 gui=bold
+hi SpellCap        guifg=#875f00 guibg=#121212 gui=bold
+hi SpellRare       guifg=#875f87 guibg=#121212 gui=bold
+hi SpellLocal      guifg=#af0000 guibg=#121212 gui=bold
 
 hi Statement       guifg=#d78700               gui=bold
 hi StatusLine      guifg=#121212 guibg=#af8700
@@ -153,10 +153,10 @@ if &t_Co > 255
    hi Operator        ctermfg=148
 
    " complete menu
-   hi Pmenu           ctermfg=137 ctermbg=000 cterm=none
-   hi PmenuSel        ctermfg=196 ctermbg=235 cterm=bold
+   hi Pmenu           ctermfg=137 ctermbg=233 cterm=none
+   hi PmenuSel        ctermfg=196 ctermbg=234 cterm=bold
    hi PmenuSbar       ctermfg=000 ctermbg=233 cterm=none
-   hi PmenuThumb      ctermfg=137 ctermbg=000 cterm=none
+   hi PmenuThumb      ctermfg=137 ctermbg=235 cterm=none
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=218
@@ -171,10 +171,10 @@ if &t_Co > 255
    hi Special         ctermfg=81  ctermbg=232
    hi SpecialKey      ctermfg=234
 
-   hi SpellBad        ctermfg=196 ctermbg=232  cterm=bold
-   hi SpellCap        ctermfg=196 ctermbg=232  cterm=bold
-   hi SpellRare       ctermfg=196 ctermbg=232  cterm=bold
-   hi SpellLocal      ctermfg=196 ctermbg=234  cterm=bold
+   hi SpellBad        ctermfg=196 ctermbg=233 cterm=bold
+   hi SpellCap        ctermfg=094 ctermbg=233 cterm=bold
+   hi SpellRare       ctermfg=096 ctermbg=233 cterm=bold
+   hi SpellLocal      ctermfg=124 ctermbg=233 cterm=bold
 
    hi Statement       ctermfg=172               cterm=bold
    hi StatusLine      ctermfg=233 ctermbg=136
