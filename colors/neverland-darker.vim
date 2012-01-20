@@ -73,7 +73,7 @@ hi SignColumn      guifg=#87ff00 guibg=#262626
 hi SpecialChar     guifg=#d7005f               gui=bold
 hi SpecialComment  guifg=#8a8a8a               gui=bold
 hi Special         guifg=#5fd7ff guibg=#080808
-hi SpecialKey      guifg=#8a8a8a
+hi SpecialKey      guifg=#585858
 
 hi SpellBad        guifg=#ff0000 guibg=#121212 gui=bold
 hi SpellCap        guifg=#875f00 guibg=#121212 gui=bold
