@@ -95,7 +95,7 @@ hi Underlined      guifg=#87af00               gui=none
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
 hi VisualNOS                     guibg=#444444
-hi Visual                        guibg=#262626
+hi Visual                        guibg=#4e4e4e
 hi WarningMsg      guifg=#d75fd7               gui=bold
 hi WildMenu        guifg=#5fd7ff guibg=#000000
 
@@ -191,7 +191,7 @@ if &t_Co > 255
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=235
+   hi Visual                      ctermbg=239
    hi WarningMsg      ctermfg=170               cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
